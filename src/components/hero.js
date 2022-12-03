@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../App.css'
 import logo from '../images/logo.svg'
+import heroImg from '../images/illustration-working.svg';
 
 function Hero (){
     return(
         <div id="hero">
             <div id="nav">
 
-                <div id="left-div">
+                <div id="left-nav">
                     <img src={logo} />
                     <p>Features</p>
                     <p>Pricing</p>
@@ -16,7 +17,7 @@ function Hero (){
                     
                 </div>
 
-                <div id="right-div">
+                <div id="right-nav">
                     <button>Login</button>
                     <button>Sign Up</button>
                 </div>
@@ -28,7 +29,9 @@ function Hero (){
                     <p>Buld your brand's recognition and get detailed insights on how your links are performing</p> <br />
                     <button>Get Started</button>
                 </div>
-                <div id="hero-right"></div>
+                <div id="hero-right">
+                    <img src= {heroImg} />
+                </div>
             </div>
         </div>
     )

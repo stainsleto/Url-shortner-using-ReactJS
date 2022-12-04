@@ -1,3 +1,7 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
 #nav{
   display:flex;
   flex-direction:row;

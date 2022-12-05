@@ -14,6 +14,8 @@ function Hero (){
                     <p>Features</p>
                     <p>Pricing</p>
                     <p>Resources</p>
+                    <p>about</p>
+
                     
                 </div>
 

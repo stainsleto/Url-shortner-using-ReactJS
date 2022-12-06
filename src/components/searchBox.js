@@ -1,13 +1,13 @@
 import React from 'react'
-import '../App.css'
+
 
 function SearchBox(){
     return(
         <div id="search-box-main">
-            <div>
-                <input type="text" />
-                <button>Shorten it !</button>
-            </div>
+           
+            <input id="search-bar" type="text" placeholder="Shorten a link here.." />
+            <button id="search-button">Shorten it !</button>
+        
         </div>
     )
 }

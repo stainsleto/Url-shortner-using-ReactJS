@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import '../App.css'
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
 
@@ -14,7 +12,7 @@ function Hero (){
                     <p>Features</p>
                     <p>Pricing</p>
                     <p>Resources</p>
-                    <p>about</p>
+                    
 
                     
                 </div>
@@ -27,9 +25,9 @@ function Hero (){
             </div>
             <div id="main-hero">
                 <div id="hero-left">
-                    <h2>More than just shorter links</h2><br />
-                    <p>Buld your brand's recognition and get detailed insights on how your links are performing</p> <br />
-                    <button>Get Started</button>
+                    <h2 id="hero-title">More than just <br /> shorter links</h2><br />
+                    <p id="hero-description">Buld your brand's recognition and get <br />detailed insights on how your links are performing</p> <br />
+                    <button id="hero-button">Get Started</button>
                 </div>
                 <div id="hero-right">
                     <img src= {heroImg} />

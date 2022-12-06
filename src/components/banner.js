@@ -9,14 +9,5 @@ function Banner (){
                 <h1>Boost your links today</h1>
                 <button>Get started</button>
     </div>
-
-
-
-
-
-
-
-
-
     )}
 export default Banner;

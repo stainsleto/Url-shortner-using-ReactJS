@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import '../App.css'
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
 

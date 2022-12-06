@@ -7,8 +7,11 @@ import './sam.css';
 
 function App() {
   return (
+
+    <div>
     <Hero />
     <Banner />
+    </div>
   );
 }
 

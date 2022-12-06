@@ -1,14 +1,14 @@
 import React from 'react';
 import '../sam.css'
 
+
 function Banner (){
     return(
 
-  <div>
-    <H1>
-        HII
-    </H1>
-  </div>
+     <div id="banner">
+                <h1>Boost your links today</h1>
+                <button>Get started</button>
+    </div>
 
 
 

@@ -1,0 +1,5 @@
+#banner{
+    background-image : url(../src/images/bg-boost-desktop.svg);
+    mask-repeat: no-repeat;
+    object-fit: contain;
+}

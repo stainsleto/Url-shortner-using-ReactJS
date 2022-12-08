@@ -38,16 +38,18 @@
     color: white;
     height: 21%;
  }
- 
+
  #iicon{
   flex-basis: 25%;
   padding: 10px;
  }
 
- #footer-logo{
-  background-color: white;
- }
+
  #social-media{
-  justify-content: space-between;
-  
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    height: 10%;
  }

@@ -5,6 +5,7 @@ import './App.css';
 import './sam.css';
 import SearchBox from './components/searchBox'
 import Advanced from './components/advanced'
+import footer from "./components/footer"
 
 
 function App() {

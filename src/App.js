@@ -14,6 +14,7 @@ function App() {
       <SearchBox />
       <Advanced />
       <Banner />
+      <footer />
       
     </div>
 

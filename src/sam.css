@@ -2,4 +2,20 @@
     background-image : url(../src/images/bg-boost-desktop.svg);
     mask-repeat: no-repeat;
     object-fit: contain;
+    background-color: rgb(81, 55, 151);
+    
 }
+#banner-button{
+    width:150px;
+    background-color: hsl(180, 66%, 49%);
+    padding:10px;
+    border-radius: 50px;
+    border: 0px;
+    color:white;
+    font-size:18px;
+    font-weight:600;  
+  }
+  #banner-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }

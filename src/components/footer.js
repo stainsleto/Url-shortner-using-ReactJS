@@ -1,5 +1,9 @@
 import React from 'react';
 import FooterImage from '../images/logo.svg'
+import FooterImage2 from '../images/icon-facebook.svg'
+import FooterImage3 from '../images/icon-pinterest.svg'
+import FooterImage4 from '../images/icon-twitter.svg'
+
 function Footer(){
   return (
     
@@ -26,6 +30,23 @@ function Footer(){
         <p >Carears</p>
         <p >Contact</p>
       </div>
+      <div>
+
+      </div>
+      <div id='social-media'>
+      
+      <img src={FooterImage2} />
+      <img src={FooterImage3} />
+      <img src={FooterImage4} />
+      
+
+      </div>
+
+
+
+
+
+
     </div>
 
   );

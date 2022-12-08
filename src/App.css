@@ -82,12 +82,12 @@
   justify-content: center;
   background-color: hsl(257, 27%, 26%);
   background-image : url(./images/bg-shorten-desktop.svg);
-  margin:150px 250px -50px 250px;
+  margin:150px 250px 0px 250px;
   width:1080px;
   height:168px;
   background-repeat: no-repeat;
   border-radius: 30px;
-  z-index: 1;
+  
 }
 
 #search-bar{
@@ -114,7 +114,7 @@
   padding:250px 0px 150px 0px;
   background-color:hsl(0, 7%, 92%);
   text-align:center;
-  z-index: 1;
+  
 }
 
 #adv-three-box{

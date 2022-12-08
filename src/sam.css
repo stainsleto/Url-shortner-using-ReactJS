@@ -1,54 +1,59 @@
 #banner{
-    background-image : url(../src/images/bg-boost-desktop.svg);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-color: rgb(81, 55, 151);
-    height:250px;
-    
+  background-image : url(../src/images/bg-boost-desktop.svg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-color: rgb(81, 55, 151);
+  height:180px;
+  width:100%;
+  margin:-22px 0px 0px 0px;
+  padding:40px;
+  
 }
 #banner-button{
-    width:150px;
-    background-color: hsl(180, 66%, 49%);
-    padding:10px;
-    border-radius: 50px;
-    border: 0px;
-    color:white;
-    font-size:18px;
-    font-weight:600;  
-  }
-  #banner-text{
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-  
+  width:150px;
+  background-color: hsl(180, 66%, 49%);
+  padding:10px;
+  border-radius: 50px;
+  border: 0px;
+  color:white;
+  font-size:18px;
+  font-weight:600;  
+}
+#banner-text{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
 
 
 
 
 #body{
-  background-color: rgb(27, 24, 24);
-  width: 85%;
-  position: absolute;
-  padding: 100px;
-  line-height: 20px;
-  margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    color: white;
-    height: 21%;
- }
- 
- #iicon{
-  flex-basis: 25%;
-  padding: 10px;
- }
-
- #footer-logo{
-  background-color: white;
- }
- #social-media{
+background-color: rgb(27, 24, 24);
+width: 100%;
+position: absolute;
+padding: 100px;
+line-height: 20px;
+margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
-  
- }
+  color: white;
+  height: 21%;
+}
+
+#iicon{
+flex-basis: 25%;
+padding: 10px;
+}
+
+
+#social-media{
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  height: 10%;
+}

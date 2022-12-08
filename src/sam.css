@@ -1,8 +1,9 @@
 #banner{
     background-image : url(../src/images/bg-boost-desktop.svg);
-    mask-repeat: no-repeat;
-    object-fit: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
     background-color: rgb(81, 55, 151);
+    height:250px;
     
 }
 #banner-button{

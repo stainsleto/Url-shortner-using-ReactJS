@@ -5,7 +5,7 @@ import './App.css';
 import './sam.css';
 import SearchBox from './components/searchBox'
 import Advanced from './components/advanced'
-import footer from "./components/footer"
+import Footer from "./components/footer"
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <SearchBox />
       <Advanced />
       <Banner />
-      <footer />
+      <Footer />
       
     </div>
 

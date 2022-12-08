@@ -3,8 +3,8 @@ import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
 import SearchBox from './searchBox'
 
-function Hero (){
-    return(
+function Hero() {
+    return (
         <div id="hero">
             <div id="nav">
 
@@ -13,14 +13,14 @@ function Hero (){
                     <p>Features</p>
                     <p>Pricing</p>
                     <p>Resources</p>
-                    
+
                 </div>
 
                 <div id="right-nav">
                     <button>Login</button>
                     <button>Sign Up</button>
                 </div>
-                
+
             </div>
             <div id="main-hero">
                 <div id="hero-left">
@@ -29,12 +29,16 @@ function Hero (){
                     <button id="hero-button">Get Started</button>
                 </div>
                 <div id="hero-right">
-                    <img src= {heroImg} />
+                    <img src={heroImg} />
                 </div>
             </div>
-            <div id="search-box">
-                <SearchBox />
+            <div id="test">
+                <div id="search-box">
+                    <input id="search-bar" type="text" placeholder="Shorten a link here.." />
+                    <button id="search-button">Shorten it !</button>
+                </div>
             </div>
+
         </div>
     )
 }

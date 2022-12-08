@@ -91,11 +91,27 @@
 }
 
 #search-box{
+  padding:60px;
+  margin : 150px;
+  flex-direction:row;
+  background-color: hsl(257, 27%, 26%);
+  background-image : url(./images/bg-shorten-desktop.svg);
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-top : 200px;
+}
+
+#test{
   height: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 #search-bar{
-  width:770px;
+  width:500px;
   padding:10px;
   border-radius:10px;
   border:0px solid;
@@ -110,6 +126,7 @@
   color:white;
   font-size:17px;
   font-weight:600;
+  margin-left: 20px;
 }
 
 /* Advanced Section */

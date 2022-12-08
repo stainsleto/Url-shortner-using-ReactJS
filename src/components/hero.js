@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
+import SearchBox from './searchBox'
 
 function Hero (){
     return(
@@ -12,8 +13,6 @@ function Hero (){
                     <p>Features</p>
                     <p>Pricing</p>
                     <p>Resources</p>
-                    
-
                     
                 </div>
 
@@ -32,6 +31,9 @@ function Hero (){
                 <div id="hero-right">
                     <img src= {heroImg} />
                 </div>
+            </div>
+            <div id="search-box">
+                <SearchBox />
             </div>
         </div>
     )

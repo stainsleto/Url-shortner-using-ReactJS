@@ -13,21 +13,21 @@ function Advanced(){
             
             <div id="adv-three-box">
                 <div id="box-1">
-                    <img class = "box-image" src={chart} />
+                    <img className = "box-image" src={chart} />
                     <h3>Brand Recognition</h3>
                     <p>Boost your brand recognition with each click.Generic links don't mean a thing. branded links help instil confidence in your content </p>
                 </div>
 
                 <div id="box-2">
                     
-                    <img class = "box-image" src={meter} />
+                    <img className = "box-image" src={meter} />
                     <h3>Detailed Records</h3>
                     <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
 
                 </div>
 
                 <div id="box-3">
-                    <img class = "box-image" src={tools} />
+                    <img className = "box-image" src={tools} />
                     <h3>Fully Customizable</h3>
                     <p>Boost your brand recognition with each click.Generic links don't mean a thing. branded links help instil confidence in your content </p>
 

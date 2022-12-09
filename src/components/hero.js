@@ -32,12 +32,14 @@ function Hero() {
                     <img src={heroImg} />
                 </div>
             </div>
+
             <div id="test">
                 <div id="search-box">
                     <input id="search-bar" type="text" placeholder="Shorten a link here.." />
                     <button id="search-button">Shorten it !</button>
                 </div>
             </div>
+
 
         </div>
     )

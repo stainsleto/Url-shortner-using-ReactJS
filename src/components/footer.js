@@ -1,8 +1,11 @@
 import React from 'react';
-import FooterImage from '../images/logo.svg'
+import FooterImage from '../images/footer-logo.png'
 import FooterImage2 from '../images/icon-facebook.svg'
 import FooterImage3 from '../images/icon-pinterest.svg'
 import FooterImage4 from '../images/icon-twitter.svg'
+import FooterImage5 from '../images/icon-instagram.svg'
+
+
 
 function Footer(){
   return (
@@ -38,6 +41,7 @@ function Footer(){
       <img src={FooterImage2} />
       <img src={FooterImage3} />
       <img src={FooterImage4} />
+      <img src={FooterImage5} />
       
 
       </div>

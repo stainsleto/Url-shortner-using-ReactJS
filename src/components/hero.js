@@ -1,8 +1,22 @@
 import React from 'react';
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
+import { click } from '@testing-library/user-event/dist/click';
 
 function Hero() {
+
+    const searchButton = document.getElementById("search-button");
+    searchButton.addEventListener("click",() => {
+    const searchBar = document.getElementById("search-bar").value;
+    const api = fetch(`https://api.shrtco.de/v2/shorten?url=${searchBar}`);
+    const link = api.then( (response) => response.json());
+    console.log(link);
+    const result = document.getElementById("result");
+    result.textContent = link.result.full_short_link ;
+
+    });
+
+
     return (
         <div id="hero">
             <div id="nav">
@@ -37,9 +51,11 @@ function Hero() {
                 <div id="search-box">
                     <input id="search-bar" type="text" placeholder="Shorten a link here.." />
                     <button id="search-button">Shorten it !</button>
+                    
                 </div>
+                
             </div>
-
+            <h1 id="result">result</h1>
 
         </div>
     )

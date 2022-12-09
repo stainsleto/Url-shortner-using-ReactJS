@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
-import SearchBox from './searchBox'
 
 function Hero() {
     return (
@@ -23,6 +22,7 @@ function Hero() {
 
             </div>
             <div id="main-hero">
+                
                 <div id="hero-left">
                     <h2 id="hero-title">More than just <br /> shorter links</h2><br />
                     <p id="hero-description">Buld your brand's recognition and get <br />detailed insights on how your links are performing</p> <br />
@@ -32,7 +32,7 @@ function Hero() {
                     <img src={heroImg} />
                 </div>
             </div>
-            <div id="test">
+            <div id="search-box-layout">
                 <div id="search-box">
                     <input id="search-bar" type="text" placeholder="Shorten a link here.." />
                     <button id="search-button">Shorten it !</button>

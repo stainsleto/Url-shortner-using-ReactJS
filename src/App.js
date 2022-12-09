@@ -12,7 +12,6 @@ function App() {
   return (
     <div>
       <Hero />
-      <SearchBox />
       <Advanced />
       <Banner />
       <Footer />

@@ -8,9 +8,7 @@
   background-size: 1700px;
   background-color: hsl(257, 27%, 26%);
   margin:-22px 0px 0px 0px;
-  padding:50px 0px 50px 0px;
-  
-  
+  padding:40px 0px 40px 0px;
 }
 #banner-button{
   width:150px;
@@ -26,15 +24,13 @@
   color: rgb(255, 255, 255);
   text-align: center;
 }
-
-
 #body{
-background-color: hsl(255, 11%, 22%);
-width: 87.3vw;
-position: absolute;
-padding: 100px;
-line-height: 20px;
-margin: auto;
+ background-color: hsl(255, 11%, 22%);
+ width: 84.1vw;
+ position: absolute;
+ padding: 100px;
+ line-height: 20px;
+ margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -42,15 +38,8 @@ margin: auto;
   color: white;
   height: 21%;
 }
-
-#iicon{
-flex-basis: 25%;
-padding: 10px;
-}
-
-
 #social-media{
-  width: 10%;
+  width:19VH;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

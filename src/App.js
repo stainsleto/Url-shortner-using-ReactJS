@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from './components/hero'
-import Banner from './components/banner';
+import Banner from './components/banner'
 import './App.css';
 import './sam.css';
 import SearchBox from './components/searchBox'

@@ -33,6 +33,7 @@ function Hero (){
                     <img src= {heroImg} />
                 </div>
             </div>
+            
         </div>
     )
 }

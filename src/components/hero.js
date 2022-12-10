@@ -6,16 +6,23 @@ import heroImg from '../images/illustration-working.svg';
 
 function Hero() {
 
-    function urlShort() {
+    async function urlShort() {
+        
     const searchBar = document.getElementById("search-bar").value;
     const api = fetch(`https://api.shrtco.de/v2/shorten?url=${searchBar}`);
     const link = api.then( (response) => response.json())
     .then( (data)=> {
-        const result = document.getElementById("result");
-        result.textContent = data.result.full_short_link ;
 
+        // data.result.full_short_link 
+
+       
+        document.getElementById("result").innerHTML = <div> Copy this ` ${data.result.full_short_link}` <button> Copy </button></div>
+        
     })
-    console.log(link);
+    setTimeout(()=> {
+        console.log(link);
+    },7000)
+    
 
     
 
@@ -62,7 +69,7 @@ function Hero() {
                 
                 
             </div>
-            <h1 id="result">result</h1>
+            <div id="result"> <button> Copy </button></div>
 
         </div>
     )

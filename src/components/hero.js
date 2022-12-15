@@ -19,17 +19,25 @@ function Hero() {
         document.getElementById("short-link").textContent = data.result.full_short_link;
         
     })
+    document.getElementById("result-box").style.display = 'block';
     const realLink = document.getElementById("main-url");
     realLink.textContent = searchBar;
     
-    
+    const copyButton = document.getElementById('copy-button');
+    copyButton.addEventListener('click', clipboardCopy);
+    async function clipboardCopy() {
+      let text = document.querySelector("#short-link").textContent;
+      await navigator.clipboard.writeText(text);
+      copyButton.textContent = "Copied!";
+    //   copyButton.style.background-color = "#3a3053";  ------------ > need to fix
+    }
+
 
     
 
     };
 
    
-
     return (
         <div id="hero">
             <div id="nav">
@@ -71,19 +79,19 @@ function Hero() {
                 {/* Result Box */}
 
                 <div id="result-box"> 
+                    <div id="inner-result">
+                        <div id="result-left">
 
-                    <div id="result-left">
+                        <p id="main-url"> </p>
 
-                    <p id="main-url"> </p>
+                        </div>
 
-                    </div>
+                        <div id="result-right">
+                            <p id="short-link">  </p>
+                            <button id="copy-button"> Copy </button>
 
-                    <div id="result-right">
-                        <p id="short-link">  </p>
-                        <button id="copy-button"> Copy </button>
-
-                    </div>
-                    
+                        </div>
+                    </div>   
 
                 </div>
                 

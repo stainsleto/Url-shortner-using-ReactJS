@@ -14,20 +14,21 @@ function Hero() {
     .then( (data)=> {
 
         // data.result.full_short_link 
-
        
-        document.getElementById("result").innerHTML = <div> Copy this ` ${data.result.full_short_link}` <button> Copy </button></div>
+       
+        document.getElementById("short-link").textContent = data.result.full_short_link;
         
     })
-    setTimeout(()=> {
-        console.log(link);
-    },7000)
+    const realLink = document.getElementById("main-url");
+    realLink.textContent = searchBar;
+    
     
 
     
 
     };
 
+   
 
     return (
         <div id="hero">
@@ -66,10 +67,28 @@ function Hero() {
                     <button onClick={urlShort} id="search-button"> Shorten it!</button>
                     
                 </div>
-                
+
+                {/* Result Box */}
+
+                <div id="result-box"> 
+
+                    <div id="result-left">
+
+                    <p id="main-url"> </p>
+
+                    </div>
+
+                    <div id="result-right">
+                        <p id="short-link">  </p>
+                        <button id="copy-button"> Copy </button>
+
+                    </div>
+                    
+
+                </div>
                 
             </div>
-            <div id="result"> <button> Copy </button></div>
+            
 
         </div>
     )

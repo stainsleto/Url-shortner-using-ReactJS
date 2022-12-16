@@ -1,12 +1,19 @@
 import React from 'react';
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
+import loading from '../images/Spin.svg'
 
 
 
 function Hero() {
 
     async function urlShort() {
+
+    // loading feature 
+    
+    const loading = document.getElementById("loading");
+
+    loading.style.display = "block"
         
     const searchBar = document.getElementById("search-bar").value;
     const response = await fetch(`https://api.shrtco.de/v2/shorten?url=${searchBar}`);
@@ -14,10 +21,29 @@ function Hero() {
     const data = link.result.full_short_link;
        
     document.getElementById("short-link").textContent = await data;
+
+
+    
+    
+    const resultBox = document.getElementById("result-box");
+    
+    
+   
+
         
-    document.getElementById("result-box").style.display = 'block';
+    resultBox.style.display = 'block';
+
+    // loading feature 
+
+    if (resultBox.style.display == "block"){
+        loading.style.display = "none"
+    }
+
+
     const realLink = document.getElementById("main-url");
     realLink.textContent = searchBar;
+
+
     
     // Copy Button 
 
@@ -72,7 +98,7 @@ function Hero() {
                 <div id="search-box">
                     <input id="search-bar" type="text" placeholder="Shorten a link here.." />
                     <button onClick={urlShort} id="search-button"> Shorten it!</button>
-                    
+                    <img id="loading"src={loading} />
                 </div>
 
                 {/* Result Box */}

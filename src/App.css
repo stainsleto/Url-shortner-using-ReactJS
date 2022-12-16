@@ -115,6 +115,11 @@
   font-weight:600;
 }
 
+#loading{
+  width:50px;
+  display : none;
+}
+
 #result-box{
   width:55vw;
   padding:30px;

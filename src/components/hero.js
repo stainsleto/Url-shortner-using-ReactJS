@@ -9,22 +9,21 @@ function Hero() {
     async function urlShort() {
         
     const searchBar = document.getElementById("search-bar").value;
-    const api = fetch(`https://api.shrtco.de/v2/shorten?url=${searchBar}`);
-    const link = api.then( (response) => response.json())
-    .then( (data)=> {
-
-        // data.result.full_short_link 
+    const response = await fetch(`https://api.shrtco.de/v2/shorten?url=${searchBar}`);
+    const link = await response.json();
+    const data = link.result.full_short_link;
        
-       
-        document.getElementById("short-link").textContent = data.result.full_short_link;
+    document.getElementById("short-link").textContent = await data;
         
-    })
     document.getElementById("result-box").style.display = 'block';
     const realLink = document.getElementById("main-url");
     realLink.textContent = searchBar;
     
+    // Copy Button 
+
     const copyButton = document.getElementById('copy-button');
     copyButton.addEventListener('click', clipboardCopy);
+
     async function clipboardCopy() {
       let text = document.querySelector("#short-link").textContent;
       await navigator.clipboard.writeText(text);

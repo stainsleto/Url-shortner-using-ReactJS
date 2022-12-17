@@ -25,6 +25,17 @@
   gap:30px;
 }
 
+.menu-button{
+  font-size:16px;
+  
+}
+
+.menu-button:hover{
+  color: hsl(260, 8%, 14%);
+  cursor:pointer;
+}
+
+
 #right-nav{
   display:flex;
   flex-direction:row;
@@ -72,6 +83,11 @@
   font-weight:600;
 }
 
+.hero-button:hover{
+  background-color: hsl(180, 72%, 56%) ;
+  cursor:pointer;
+}
+
 /* Search Box  */
 
 #search-box{
@@ -106,13 +122,19 @@
 
 #search-button{
   width:150px;
-  background-color: hsl(180, 66%, 49%);
+  background-color:hsl(180, 66%, 49%);
+  
   padding:10px;
   border-radius: 10px;
   border: 0px;
   color:white;
   font-size:17px;
   font-weight:600;
+}
+
+#search-button:hover{
+  background-color:hsl(180, 72%, 56%);
+  cursor:pointer;
 }
 
 #loading{
@@ -190,7 +212,7 @@
 #adv-three-box{
   display:flex;
   flex-direction:row;
-  background-image: url('../src/images/line.png');
+  background-image: url('../src/images/line.png') ;
   background-repeat: no-repeat;
   background-position: center;
   gap:50px;

@@ -70,14 +70,14 @@ function Hero() {
 
                 <div id="left-nav">
                     <img src={logo} />
-                    <p>Features</p>
-                    <p>Pricing</p>
-                    <p>Resources</p>
+                    <p className="menu-button">Features</p>
+                    <p className="menu-button">Pricing</p>
+                    <p className="menu-button">Resources</p>
 
                 </div>
 
                 <div id="right-nav">
-                    <button className="hero-button">Login</button>
+                    <p className="menu-button">Login</p>
                     <button className="hero-button">Sign Up</button>
                 </div>
 

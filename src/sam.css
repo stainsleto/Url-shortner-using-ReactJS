@@ -20,6 +20,11 @@
   font-size:18px;
   font-weight:600;  
 }
+
+#banner-button:hover{
+  background-color: hsl(180, 72%, 56%);
+  cursor:pointer;
+}
 #banner-text{
   color: rgb(255, 255, 255);
   text-align: center;
@@ -43,4 +48,15 @@
   justify-content: space-between;
   color: white;
   height: 10%;
+}
+
+.footer-button:hover{
+  color: hsl(180, 66%, 49%);
+  cursor:pointer;
+
+}
+
+.footer-icon:hover{
+  fill:hsl(180, 66%, 49%);
+  cursor:pointer;
 }

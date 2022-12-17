@@ -3,6 +3,8 @@ import chart from '../images/icon-brand-recognition.svg'
 import meter from '../images/icon-detailed-records.svg'
 import tools from '../images/icon-fully-customizable.svg'
 
+
+
 function Advanced(){
     return(
         <div id="advanced-main">

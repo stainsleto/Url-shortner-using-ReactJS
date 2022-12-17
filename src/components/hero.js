@@ -5,6 +5,7 @@ import loading from '../images/Spin.svg'
 
 
 
+
 function Hero() {
 
     async function urlShort() {

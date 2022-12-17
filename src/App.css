@@ -190,6 +190,9 @@
 #adv-three-box{
   display:flex;
   flex-direction:row;
+  background-image: url('../src/images/line.png');
+  background-repeat: no-repeat;
+  background-position: center;
   gap:50px;
   margin:70px 0px 0px 0px;
   align-items: center;

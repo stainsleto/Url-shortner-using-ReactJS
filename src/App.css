@@ -143,8 +143,8 @@
 }
 
 #result-box{
-  width:55vw;
-  padding:30px;
+  width:auto;
+  padding:35px;
   border-radius: 10px;
   background-color: #fefeff;
   margin-top : 90px;
@@ -152,10 +152,12 @@
   display:none;
 }
 
+
 #inner-result{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  gap:30px;
 }
 
 #result-right{

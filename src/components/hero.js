@@ -70,10 +70,9 @@ function Hero() {
 
                 <div id="left-nav">
                     <img src={logo} />
-                    <p className="menu-button">Features</p>
-                    <p className="menu-button">Pricing</p>
-                    <p className="menu-button">Resources</p>
-
+                    <a href="#" id="nav-link">Features</a>
+                    <a href="#" id="nav-link">Pricing</a>
+                    <a href="#" id="nav-link">Resources</a>
                 </div>
 
                 <div id="right-nav">

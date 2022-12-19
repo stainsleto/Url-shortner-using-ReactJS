@@ -17,10 +17,7 @@
   font-size:16px;
 
 }
-#nav-link{
-  text-decoration: none;
-  color: currentcolor;
-}
+
 #left-nav{
   display:flex;
   flex-direction:row;
@@ -30,6 +27,9 @@
 
 .menu-button{
   font-size:16px;
+  text-decoration: none;
+  color:hsl(0, 1%, 42%);
+  font-weight : 600;
   
 }
 

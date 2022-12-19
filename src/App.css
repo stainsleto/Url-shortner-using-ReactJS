@@ -76,7 +76,7 @@
 }
 
 .hero-button{
-  width:10vw;
+  width:9vw;
   background-color: hsl(180, 66%, 49%);
   padding:10px;
   border-radius: 50px;
@@ -261,4 +261,15 @@
   border-radius:7px;
   text-align:left
 
+}
+
+@media  screen and (max-width:1200px) {
+  .hero-button{
+    width:10vw;
+    font-size:14px;
+  }
+
+  #hero-title{
+    font-size:52px;
+  }
 }

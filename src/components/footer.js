@@ -11,39 +11,39 @@ function Footer(){
   return (
     
     <div id="body">
-        <div id="footer-logo">
+
+      <div id="footer-logo">
         <img src={FooterImage} />
-        </div>
+      </div>
+
       <div id='features'>
-        <h3>Features</h3>
+        <h3 className="footer-title">Features</h3>
         <p className="footer-button">Link shortening </p>
         <p className="footer-button">Branded links</p>
         <p className="footer-button">Analytics</p>
       </div>
       <div  id='resoures'>
-        <h3 >Resources</h3>
+        <h3 className="footer-title">Resources</h3>
         <p className="footer-button" >Blog</p>
         <p className="footer-button">Developers</p>
         <p className="footer-button">Support</p>
       </div>
-      <div >
-        <h3 >Company</h3>
+      <div id='company'>
+        <h3 className="footer-title">Company</h3>
         <p className="footer-button">About</p>
-        <p className="footer-button">our team</p>
+        <p className="footer-button">Our team</p>
         <p className="footer-button">Carears</p>
         <p className="footer-button" >Contact</p>
       </div>
       <div>
 
       </div>
-      <div id='social-media'>
-      
-      <img className="footer-icon" src={FooterImage2} />
-      <img className="footer-icon" src={FooterImage3} />
-      <img className="footer-icon" src={FooterImage4} />
-      <img className="footer-icon" src={FooterImage5} />
-      
 
+      <div id='social-media'>
+        <img className="footer-icon" src={FooterImage2} />
+        <img className="footer-icon" src={FooterImage3} />
+        <img className="footer-icon" src={FooterImage4} />
+        <img className="footer-icon" src={FooterImage5} />
       </div>
 
 

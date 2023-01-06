@@ -30,19 +30,19 @@
   text-align: center;
 }
 #body{
- background-color: hsl(255, 11%, 22%);
- padding: 100px;
- line-height: 20px;
- margin: auto;
+  background-color: hsl(255, 11%, 22%);
+  padding: 100px;
+  line-height: 20px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   color: white;
-  height: 21%;
+  
 }
 #social-media{
-  width:19VH;
+  width:19vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -61,3 +61,48 @@
   cursor:pointer;
 }
 
+@media screen and (min-width:350px) and (max-width:750px){
+  
+  #banner-text{
+    font-size:26px;
+    margin-bottom:20px;
+  }
+  #banner-button{
+    width:50vw;
+    font-size:18px;
+  }
+
+  #body{
+    justify-content: center;
+    align-items: center;
+    padding:0px 0px 50px 0px;
+    flex-direction:column;
+  }
+
+  .footer-button{
+    text-align:center;
+    padding:10px;
+    font-size:16px;
+  }
+  .footer-title{
+    text-align:center;
+    padding-bottom:10px;
+  }
+  #features{
+    padding:30px;
+  }
+
+  #resoures{
+    padding:30px;
+  }
+  #company{
+    padding:30px;
+  }
+
+  #social-media{
+    width:auto;
+    gap:20px;
+  }
+
+
+}

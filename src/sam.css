@@ -61,6 +61,37 @@
   cursor:pointer;
 }
 
+@media screen and (min-width:750px) and (max-width:1000px){
+  #body{
+    padding: 100px 0px 100px 0px;
+    justify-content:space-evenly;
+    
+  }
+
+  .footer-title{
+    
+    margin-bottom:10px;
+  }
+
+  .footer-button{
+    padding:10px 0px 10px 0px;
+    
+  }
+
+  #footer-logo img{
+    width:15vw;
+  }
+
+  #social-media{
+    width:auto;
+    gap:10px;
+  }
+
+}
+
+
+/* Mobile Responsive  */
+
 @media screen and (min-width:350px) and (max-width:750px){
   
   #banner-text{

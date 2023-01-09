@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../images/logo.svg'
 import heroImg from '../images/illustration-working.svg';
 import loading from '../images/Spin.svg'
+import mobileList from '../images/list.svg'
 
 
 
@@ -59,13 +60,26 @@ function Hero() {
     }
 
 
-    
-
     };
 
+    function mobileNav() {
+        let navIcon = document.getElementsByClassName("mobile-menu-icon")
+        console.log("nav clicked");
+        let popNav = document.getElementById("pop-nav");
+        if (popNav.style.display == "block"){
+            popNav.style.display = "none"  
+        }
+        else {
+            popNav.style.display = "block"
+        }
+        
+    }
    
     return (
         <div id="hero">
+
+            {/* Navigation Bar Web view  */}
+
             <div id="nav">
 
                 <div id="left-nav">
@@ -81,6 +95,35 @@ function Hero() {
                 </div>
 
             </div>
+
+            {/* Navigation Bar Mobile View */}
+
+            <div id="mobile-nav">
+                <div id="mob-nav-box">
+                    <div>
+                        <img src={logo} className="active" />
+                    </div>
+
+                    <div>
+                        <img src={mobileList} onClick={mobileNav} className = "mobile-menu-icon" />
+                        
+                    </div>
+                    
+                </div>
+                <div id="pop-nav">
+                    <div id="nav-items">
+                        <a href="#" className="mob-nav-buttton">Features</a>
+                        <a href="#" className="mob-nav-buttton">Pricing</a>
+                        <a href="#" className="mob-nav-buttton">Resources</a> 
+                        <hr id="hr-line" />
+                        <a href="#" className="mob-nav-buttton">Login</a>
+                        <button id="mobile-button">Signup</button>
+                    </div>
+                </div>
+
+            </div>
+
+
             <div id="main-hero">
                 
                 <div id="hero-left">

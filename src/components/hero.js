@@ -27,7 +27,7 @@ function Hero() {
 
     
     
-    const resultBox = document.getElementById("result-box");
+    const resultBox = document.getElementById("result-box-main");
     
     
    
@@ -132,7 +132,7 @@ function Hero() {
                     <button className="hero-button">Get Started</button>
                 </div>
                 <div id="hero-right">
-                    <img src={heroImg} />
+                    <img src={heroImg} alt="hero" />
                 </div>
             </div>
 
@@ -141,26 +141,29 @@ function Hero() {
                 <div id="search-box">
                     <input id="search-bar" type="text" placeholder="Shorten a link here.." />
                     <button onClick={urlShort} id="search-button"> Shorten it!</button>
-                    <img id="loading"src={loading} />
+                    <img id="loading" src={loading} alt="loading-icon" />
                 </div>
 
                 {/* Result Box */}
+                <div id="result-box-main">
+                    <div id="result-box"> 
+                        <div id="inner-result">
+                            <div id="result-left">
 
-                <div id="result-box"> 
-                    <div id="inner-result">
-                        <div id="result-left">
+                            <p id="main-url"> </p>
+                            
+                            </div>
+                            
+                            
 
-                        <p id="main-url"> </p>
+                            <div id="result-right">
+                                <p id="short-link">  </p>
+                                <button id="copy-button"> Copy </button>
 
-                        </div>
+                            </div>
+                        </div>   
 
-                        <div id="result-right">
-                            <p id="short-link">  </p>
-                            <button id="copy-button"> Copy </button>
-
-                        </div>
-                    </div>   
-
+                    </div>
                 </div>
                 
             </div>

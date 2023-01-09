@@ -147,7 +147,7 @@ html {
   border-radius: 10px;
   border: 0px;
   color:white;
-  font-size:17px;
+  font-size:16px;
   font-weight:600;
 }
 
@@ -161,6 +161,10 @@ html {
   display : none;
 }
 
+#result-box-main{
+  display:none;
+}
+
 #result-box{
   width:auto;
   padding:35px;
@@ -168,7 +172,7 @@ html {
   background-color: #fefeff;
   margin-top : 90px;
   margin-bottom : -250px;
-  display:none;
+  
 }
 
 
@@ -279,9 +283,9 @@ html {
 
 }
 
-@media  screen and (max-width:1200px) {
+@media  screen and (min-width:1000px) and (max-width:1499px) {
   .hero-button{
-    width:10vw;
+    width:13vw;
     font-size:14px;
   }
 
@@ -293,6 +297,16 @@ html {
   #hero-title{
     font-size:52px;
   }
+
+  #search-box{
+    width:80vw;
+    height:32vh;
+  }
+
+  #search-button{
+    width:13vw;
+  }
+
 }
 @media screen and (min-width:750px) and (max-width:1000px) {
  
@@ -325,9 +339,13 @@ html {
   height : 10vh;
 }
 #search-button{
-  width:12vw;
+  width:14vw;
   height:10vh;
   font-size: 14px;
+}
+
+#adv-three-box{
+  background-image: none;
 }
 
 #box-1{
@@ -477,8 +495,31 @@ html {
     font-size:18px;
   }
 
+  #result-box{
+    margin :120px 0px -250px 0px;
+    width:74vw;
+  }
+
+  #inner-result{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  #result-right{
+    flex-direction:column;
+  }
+
+  #copy-button{
+    width:30vw;
+  }
+  #main-url{
+    font-size:3vw;
+  }
+
   #advanced-main{
-    padding:150px 0px 180px 0px;
+    padding:350px 0px 180px 0px; 
   
   }
   
@@ -493,6 +534,7 @@ html {
   }
 
   #adv-three-box{
+    background-image: url('./images/line-ver.png');
     flex-direction:column;
     gap:10px;
   }

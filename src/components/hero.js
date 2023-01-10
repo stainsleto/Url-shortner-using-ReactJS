@@ -37,7 +37,7 @@ function Hero() {
 
     // loading feature 
 
-    if (resultBox.style.display == "block"){
+    if (resultBox.style.display === "block"){
         loading.style.display = "none"
     }
 
@@ -63,10 +63,9 @@ function Hero() {
     };
 
     function mobileNav() {
-        let navIcon = document.getElementsByClassName("mobile-menu-icon")
         console.log("nav clicked");
         let popNav = document.getElementById("pop-nav");
-        if (popNav.style.display == "block"){
+        if (popNav.style.display === "block"){
             popNav.style.display = "none"  
         }
         else {
@@ -83,7 +82,7 @@ function Hero() {
             <div id="nav">
 
                 <div id="left-nav">
-                    <img src={logo} />
+                    <img src={logo} alt="logo" />
                     <a href="#" className="menu-button">Features</a>
                     <a href="#" className="menu-button">Pricing</a>
                     <a href="#" className="menu-button">Resources</a>
@@ -101,11 +100,11 @@ function Hero() {
             <div id="mobile-nav">
                 <div id="mob-nav-box">
                     <div>
-                        <img src={logo} className="active" />
+                        <img src={logo} className="active" alt="logo" />
                     </div>
 
                     <div>
-                        <img src={mobileList} onClick={mobileNav} className = "mobile-menu-icon" />
+                        <img src={mobileList} onClick={mobileNav} className = "mobile-menu-icon" alt="menu-list" />
                         
                     </div>
                     

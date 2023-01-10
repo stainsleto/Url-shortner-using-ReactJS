@@ -13,7 +13,7 @@ function Footer(){
     <div id="body">
 
       <div id="footer-logo">
-        <img src={FooterImage} />
+        <img src={FooterImage} alt="footer-logo" />
       </div>
 
       <div id='features'>
@@ -40,10 +40,10 @@ function Footer(){
       </div>
 
       <div id='social-media'>
-        <img className="footer-icon" src={FooterImage2} />
-        <img className="footer-icon" src={FooterImage3} />
-        <img className="footer-icon" src={FooterImage4} />
-        <img className="footer-icon" src={FooterImage5} />
+        <img className="footer-icon" src={FooterImage2} alt="socialmedia" />
+        <img className="footer-icon" src={FooterImage3} alt="socialmedia" />
+        <img className="footer-icon" src={FooterImage4} alt="socialmedia" />
+        <img className="footer-icon" src={FooterImage5} alt="socialmedia" />
       </div>
 
 

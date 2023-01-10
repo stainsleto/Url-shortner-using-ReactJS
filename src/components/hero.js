@@ -83,13 +83,13 @@ function Hero() {
 
                 <div id="left-nav">
                     <img src={logo} alt="logo" />
-                    <a href="#" className="menu-button">Features</a>
-                    <a href="#" className="menu-button">Pricing</a>
-                    <a href="#" className="menu-button">Resources</a>
+                    <a href="#advanced-main" className="menu-button">Features</a>
+                    <a href="#banner" className="menu-button">Pricing</a>
+                    <a href="#adv-three-box" className="menu-button">Resources</a>
                 </div>
 
                 <div id="right-nav">
-                    <a href="#" className="menu-button">Login</a>
+                    <a href="#banner" className="menu-button">Login</a>
                     <button className="hero-button">Sign Up</button>
                 </div>
 
@@ -111,11 +111,11 @@ function Hero() {
                 </div>
                 <div id="pop-nav">
                     <div id="nav-items">
-                        <a href="#" className="mob-nav-buttton">Features</a>
-                        <a href="#" className="mob-nav-buttton">Pricing</a>
-                        <a href="#" className="mob-nav-buttton">Resources</a> 
+                        <a href="#advanced-main" className="mob-nav-buttton">Features</a>
+                        <a href="#banner" className="mob-nav-buttton">Pricing</a>
+                        <a href="#adv-three-box" className="mob-nav-buttton">Resources</a> 
                         <hr id="hr-line" />
-                        <a href="#" className="mob-nav-buttton">Login</a>
+                        <a href="#banner" className="mob-nav-buttton">Login</a>
                         <button id="mobile-button">Signup</button>
                     </div>
                 </div>

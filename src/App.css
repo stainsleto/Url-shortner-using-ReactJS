@@ -170,8 +170,8 @@ html {
   padding:35px;
   border-radius: 10px;
   background-color: #fefeff;
-  margin-top : 90px;
-  margin-bottom : -250px;
+  margin : 90px 20px -250px 0px;
+  
   
 }
 
@@ -344,6 +344,37 @@ html {
   font-size: 14px;
 }
 
+#result-box{
+  width:55vw;
+  margin :120px 0px -2350px 0px;
+}
+
+#inner-result{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:30px;
+}
+#main-url{
+  text-align:center;
+}
+
+#result-right{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+}
+
+#copy-button{
+  width:13vw;
+}
+
+#advanced-main{
+  padding:450px 0px 180px 0px; 
+
+}
+
 #adv-three-box{
   background-image: none;
 }
@@ -496,7 +527,7 @@ html {
   }
 
   #result-box{
-    margin :120px 0px -250px 0px;
+    margin :120px 0px -2350px 0px;
     width:74vw;
   }
 
@@ -519,7 +550,7 @@ html {
   }
 
   #advanced-main{
-    padding:350px 0px 180px 0px; 
+    padding:450px 0px 180px 0px; 
   
   }
   

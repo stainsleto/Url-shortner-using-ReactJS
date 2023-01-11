@@ -12,7 +12,7 @@ Designs are done using flex box
 
 ## Live Website 
 
-Check out the live website - https://
+Check out the live website - https://urlshortner-stains-leto.netlify.app/
 
 ### Normal Web View
 

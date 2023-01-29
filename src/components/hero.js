@@ -16,11 +16,13 @@ function Hero() {
     const loading = document.getElementById("loading");
 
     loading.style.display = "block"
-        
+
     const searchBar = document.getElementById("search-bar").value;
     const response = await fetch(`https://api.shrtco.de/v2/shorten?url=${searchBar}`);
     const link = await response.json();
     const data = link.result.full_short_link;
+  
+    
        
     document.getElementById("short-link").textContent = await data;
 
@@ -34,6 +36,7 @@ function Hero() {
 
         
     resultBox.style.display = 'block';
+  
 
     // loading feature 
 
